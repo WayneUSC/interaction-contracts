@@ -1,0 +1,2 @@
+{"type": "snapshot", "thread_id": "demo", "revision": "v1", "pending": [{"id": "a", "key": "review:42"}, {"id": "b", "key": "review:42"}]}
+{"type": "resume", "thread_id": "demo", "revision": "v1", "answers": {"a": true, "b": true}}

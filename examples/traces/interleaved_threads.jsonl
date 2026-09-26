@@ -1,0 +1,4 @@
+{"type": "snapshot", "thread_id": "A", "revision": "v1", "pending": [{"id": "same"}]}
+{"type": "snapshot", "thread_id": "B", "revision": "v1", "pending": [{"id": "same"}]}
+{"type": "resume", "thread_id": "A", "revision": "v1", "answers": {"same": null}}
+{"type": "resume", "thread_id": "B", "revision": "v1", "answers": {"same": 0}}

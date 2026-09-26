@@ -1,0 +1,64 @@
+[
+  {
+    "file": "parallel_ambiguous.jsonl",
+    "status": "fail",
+    "required_codes": [
+      "AMBIGUOUS_RESUME"
+    ]
+  },
+  {
+    "file": "parallel_mapped.jsonl",
+    "status": "pass",
+    "required_codes": []
+  },
+  {
+    "file": "stale_reply.jsonl",
+    "status": "fail",
+    "required_codes": [
+      "STALE_REVISION"
+    ]
+  },
+  {
+    "file": "fresh_revision.jsonl",
+    "status": "pass",
+    "required_codes": []
+  },
+  {
+    "file": "cross_thread.jsonl",
+    "status": "fail",
+    "required_codes": [
+      "UNKNOWN_REQUEST"
+    ]
+  },
+  {
+    "file": "duplicate_reply.jsonl",
+    "status": "fail",
+    "required_codes": [
+      "UNKNOWN_REQUEST"
+    ]
+  },
+  {
+    "file": "duplicate_prompt.jsonl",
+    "status": "pass",
+    "required_codes": [
+      "DUPLICATE_PENDING_KEY"
+    ]
+  },
+  {
+    "file": "duplicate_observation.jsonl",
+    "status": "pass",
+    "required_codes": [
+      "DUPLICATE_REQUEST_ID"
+    ]
+  },
+  {
+    "file": "pending_only.jsonl",
+    "status": "inconclusive",
+    "required_codes": []
+  },
+  {
+    "file": "interleaved_threads.jsonl",
+    "status": "pass",
+    "required_codes": []
+  }
+]

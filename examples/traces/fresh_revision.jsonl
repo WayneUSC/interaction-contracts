@@ -1,0 +1,4 @@
+{"type": "snapshot", "thread_id": "demo", "revision": "v1", "pending": [{"id": "publish"}]}
+{"type": "context", "thread_id": "demo", "revision": "v2"}
+{"type": "snapshot", "thread_id": "demo", "revision": "v2", "pending": [{"id": "publish-v2"}]}
+{"type": "resume", "thread_id": "demo", "revision": "v2", "answers": {"publish-v2": false}}
